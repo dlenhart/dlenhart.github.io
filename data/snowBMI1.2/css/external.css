@@ -1,0 +1,43 @@
+#mainPage{width: 400px;}
+
+#mainImage{
+	margin-left:90px;	
+}
+
+.ui-page { background: gray;}
+
+#highlight{
+background-color:yellow;
+}
+
+#install {
+    display: none;
+    float: right;
+    margin: 0;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    height: 50px;
+}
+
+#install button {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: -moz-linear-gradient(top,#6a7b86 0%,#424f5a 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#6a7b86),color-stop(100%,#424f5a));
+    background: -webkit-linear-gradient(top,#6a7b86 0%,#424f5a 100%);
+    background: -o-linear-gradient(top,#6a7b86 0%,#424f5a 100%);
+    background: -ms-linear-gradient(top,#6a7b86 0%,#424f5a 100%);
+    background: linear-gradient(top,#6a7b86 0%,#424f5a 100%);
+    padding: 0.3rem;
+    border: none;
+    border-radius: 5px;
+    margin: 1.4rem 1rem 0;
+}
+
+#install button:active {
+    background: #008000;
+}
+
+.show-install #install {
+    display: inline-block;
+}

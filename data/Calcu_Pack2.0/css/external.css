@@ -1,0 +1,41 @@
+/*CSS - Calcupack & overides */
+#highlight{
+background-color:yellow;
+}
+
+#tax, #price, #meal, #orPrice, #taxTwo {
+
+color: #4D494B;
+font-weight: bold;
+
+}
+
+.round{ 
+	border: 1px solid #000;
+	box-shadow: 1px 1px 4px #000;
+	border-radius: 5px;
+	background: #5a729e;
+	color: #000000;
+	
+}
+
+.jumbotron {
+    background: #5a729e !important;
+    margin-bottom: 10px !important;
+    padding-bottom: 20px !important; 
+    padding-top: 20px !important; 
+    border-bottom: 2px solid black;
+}
+
+.alert-info {
+    border-color: #5a729e !important;   
+}
+
+.ui-mini {
+    margin: 0 !important;
+}
+
+.ui-field-contain{
+    border-bottom-width: 0 !important; 
+}
+

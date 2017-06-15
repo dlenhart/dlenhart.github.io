@@ -1,0 +1,11 @@
+# gitignore - ddl
+
+vendor
+
+*.phar
+*.lock
+
+# Extra ignores
+components
+.DS_Store
+Thumbs.db

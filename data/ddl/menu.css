@@ -1,0 +1,162 @@
+/* ---------------------------------------Start Nav Menu------------------------------------------------- */
+/*snowytech.com*/
+/*9/23/12*/
+/*1.0*/
+#nav {	
+	width: 700px;
+	padding: 0px;
+	
+/*background gradient*/
+	background:#6682b5;
+	background: linear-gradient(top,  #86adf4,  #6682b5);
+	background: -webkit-gradient(linear, left top, left bottom, from(#86adf4), to(#6682b5));
+	background: -moz-linear-gradient(top,  #86adf4,  #6682b5);
+	background: -o-linear-gradient(top,  #86adf4,  #6682b5);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#86adf4', endColorstr='#6682b5');
+	line-height: 100%;
+
+	border: solid 2px #000;
+	
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+
+	display: inline-table;
+}
+/*Main Links look and feel*/
+#nav li {
+	margin: 0 15px;
+	padding: 0;
+	float: left;
+	position: relative;
+	/*removes the bullets in front of the list */
+	list-style: none;
+}
+/*Attributes of the Hyper Links*/
+#nav a {
+	margin-left: 5px;
+	font-weight: bold;
+	color: #e7e5e5;
+	text-decoration: none;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	margin: 0;
+	
+}
+
+/* Main Links hover */
+#nav li:hover > a {
+	background: ;
+	/*Font color when hovered*/
+	color: #000;
+	}
+
+	
+
+/* Drop down hover attributes. */
+#nav ul li:hover a, #nav li:hover li a {
+	background: none;
+	border: none;
+	color: black;	
+
+/*This creates a cool transition when the drop down occurs and hovering*/
+	-webkit-transition:color 0.5s linear, background 0.5s linear;   
+    -moz-transition:color 0.5s linear, background 0.5s linear;  
+    -o-transition:color 0.5s linear, background 0.5s linear;    
+    transition:color 0.5s linear, background 0.5s linear;
+}
+
+#nav ul a:hover {
+/*Background color of the drop down hover,  the !important will trump other code  */
+	background: #7d7d7d !important;
+	color: #fff !important;
+	
+}
+
+/* dropdown */
+#nav li:hover > ul {
+	display: block;
+}
+
+/* level 2 list */
+#nav ul {
+	display: none;
+
+	margin: 0;
+	padding: 0;
+	width: 185px;
+	position: absolute;
+	
+/*top will position the drop down below the menu*/
+	top: 35px;
+	
+	background: #ddd;
+	border: solid 2px #000;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	-webkit-box-shadow: 1px 1px 4px #000000;
+	-moz-box-shadow: 1px 1px 4px #000000;
+	box-shadow: 1px 1px 4px #000000;
+
+}
+#nav ul li {
+	float: none;
+	margin: 0;
+	padding: 0;
+/*make the divider between the links*/
+	border-top: 1px solid #6b727c;
+		
+}
+
+#nav ul a {
+	font-weight: normal;
+	
+}
+
+/* Third level list, use the width of the 2nd dropdown list for left.  adjust top accordingly. */
+#nav ul ul {
+	left: 100%;
+	top: -3px;
+}
+
+#nav ul:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+/* ---------------------------------------End Nav Menu------------------------------------------------- */
+
+
+/*The Main Box Container*/
+#wrapper{
+margin: 0px auto;
+width: 700px;
+
+}
+
+h1 {
+	text-shadow: 1px 1px 5px #ffffff;
+}
+
+#content{
+	background: #ddd;
+	padding: 10px;
+	width: 680px;
+	border: solid 2px #000;
+	-webkit-border-bottom-left-radius: 9px;
+	-moz-border-radius-bottomleft: 9px;
+
+	-webkit-border-bottom-right-radius: 9px;
+	-moz-border-radius-bottomright: 9px;
+}
+
+body{
+	
+}
+
+ 

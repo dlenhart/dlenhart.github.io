@@ -1,0 +1,35 @@
+.ui-bar-z{border:1px solid #2a2a2a;background:#111;color:#fff;font-weight:bold;text-shadow:0 -1px 1px #000;background-image:-moz-linear-gradient(top,#be8970,#98441c);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#be8970),color-stop(1,#98441c));-msfilter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#be8970', EndColorStr='#98441c')"}
+ .ui-bar-z,.ui-bar-z input,
+ .ui-bar-z select,
+ .ui-bar-z textarea,
+ .ui-bar-z button{font-family:Helvetica,Arial,sans-serif}
+ .ui-bar-z .ui-link-inherit{color:#000000}
+ .ui-bar-z .ui-link{color:#be8970;font-weight:bold}
+ .ui-body-z{border:1px solid #2a2a2a;background:#98441c;color:#fff;text-shadow:0 1px 0 #000;font-weight:normal;background-image:-moz-linear-gradient(top,#666,#222);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#666),color-stop(1,#222));
+ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#666666', EndColorStr='#222222)')"}
+ .ui-body-z,.ui-body-a input,
+ .ui-body-z select,.ui-body-a textarea,
+ .ui-body-z button{font-family:Helvetica,Arial,sans-serif}
+ .ui-body-z .ui-link-inherit{color:#000000}
+ .ui-body-z .ui-link{color:#be8970;font-weight:bold}
+ .ui-br{border-bottom:1px solid rgba(130,130,130,.3)}
+ 
+ /*!This is the button showing*/
+ .ui-btn-up-z{border:1px solid #222;background:#333;font-weight:bold;color:#fff;
+ cursor:pointer;text-shadow:0 -1px 1px #000;text-decoration:none;background-image:-moz-linear-gradient(top,#98441c,#be8970);
+ background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#98441c),color-stop(1,#be8970));
+ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#98441c', EndColorStr='#be8970')"}
+ .ui-btn-up-z a.ui-link-inherit{color:#fff}
+ 
+  /*!This is the button when clicked*/
+ .ui-btn-hover-z{border:1px solid #000;
+ background:#444;font-weight:bold;color:#fff;
+ text-shadow:0 -1px 1px #000;text-decoration:none;
+ background-image:-moz-linear-gradient(top,#be8970,#98441c);
+ background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#be8970),color-stop(1,#98441c));
+ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#be8970', EndColorStr='#98441c')"}
+ 
+ .ui-btn-hover-z z.ui-link-inherit{color:#000000}
+ .ui-btn-down-z{border:1px solid #000;background:#be8970;font-weight:bold;color:#fff;text-shadow:0 -1px 1px #000;background-image:-moz-linear-gradient(top,#be8970,#98441c);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#be8970),color-stop(1,#98441c));-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#be8970', EndColorStr='#98441c')"}
+ .ui-btn-down-z z.ui-link-inherit{color:#000000}
+ .ui-btn-up-z,.ui-btn-hover-z,.ui-btn-down-z{font-family:Helvetica,Arial,sans-serif}

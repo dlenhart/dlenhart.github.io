@@ -1,0 +1,6 @@
+background-image: -webkit-gradient(linear, left top, left bottom, from( #d2d2d2 /*{a-body-background-start}*/), to( #c5c5c5 {a-body-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #d2d2d2 /*{a-body-background-start}*/, #c5c5c5 /*{a-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #d2d2d2 /*{a-body-background-start}*/, #c5c5c5 /*{a-body-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #d2d2d2 /*{a-body-background-start}*/, #c5c5c5 /*{a-body-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #d2d2d2 /*{a-body-background-start}*/, #c5c5c5 /*{a-body-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #d2d2d2 /*{a-body-background-start}*/, #c5c5c5 /*{a-body-background-end}*/);
