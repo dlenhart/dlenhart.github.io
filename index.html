@@ -1,169 +1,203 @@
-<!--
-Author: Drew D. Lenhart
-Author URI: http://www.snowytech.com
-Project: snowytech.github.io
-ProjectURL: https://github.com/snowytech/snowytech.github.io
-Date: June 2017
--->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="snowytech">
-	<meta name="author" content="Drew D. Lenhart">
-	<title>snowytech - mobile apps, applications, code</title>
-	<link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/snowtemplate.css" rel="stylesheet" type="text/css"/>
-	<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css"/>
+	<title>drew.d.lenhart</title> <!-- This shows the blogs name on the front page. On content pages it ads the article name. -->
+	<meta name="description" content="Drew D. Lenhart's programming/technology blog!">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/style.css?v=2" type="text/css" />
+	<link type="text/css" rel="stylesheet" href="fontawesome/css/all.min.css" />
+	<style type='text/css'>
+		pre,
+		code {
+			overflow: auto !important;
+			white-space: pre !important;
+		}
+
+		/* Bootstrap Overrides -- DDL */
+		.btn-primary {
+			background-color: #eee;
+			border: 1px solid #000000;
+			color: black;
+			margin-bottom: 5px !important;
+		}
+
+		.btn-primary:hover {
+			background-color: #34435E;
+			border: 1px solid #eee;
+		}
+
+		.active,
+		.active>a {
+			background-color: #34435E !important;
+			color: white !important;
+		}
+
+		/*navbar override*/
+		.navbar-inverse {
+			background-color: #34435E !important;
+			border-color: #080808;
+			color: white !important;
+		}
+
+		.navbar-inverse .navbar-nav>li>a,
+		.navbar-brand {
+			color: white !important;
+		}
+
+		.navbar-inverse .navbar-nav>li>a:hover,
+		.navbar-brand:hover {
+			color: #9C9C9C !important;
+		}
+
+		.list-group-item.active,
+		.list-group-item.active:focus,
+		.list-group-item.active:hover {
+			border-color: black !important;
+		}
+	</style>
 </head>
+
 <body>
-<div class="container">
-	<div class="jumbotron bg-color borderBottom">
-	<img src="images/newlogo.png" alt="" class="compImg" />
-		<div class="row">
-		<div class="col-md-6 text-white">
-			<hr /><h2>Welcome</h2>
-			<p>snowytech, a one man operation creating websites, apps, scripts, and more!  Check out my Mobile App and Web App pages to see what is available.  Thank you for visiting!</p>
-			<hr />
-			<div class="button-box">    
-			<center>
-				<div id="spa-menu">
-					<a class="btn btn-primary btn-lg" href="#apps" role="button"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Apps</a>
-					<a class="btn btn-primary btn-lg" href="#github" role="button"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Github</a>
-					<a class="btn btn-primary btn-lg" href="#contact" role="button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact</a>
-				</div>
-			</center>
-			</div><!-- end button-box -->
-		</div><!-- end colmd6 -->
-			<div class="col-md-6">
+	<div class="main_container" style="margin-top: 1% !important;">
+		<div class="main_header">
 			<div class="row">
-				<div class="center-block" style="">
-					<center><img src="images/puter.png" alt="" class="compImg">
-					</center>
+				<div class="col-md-2" style="width: 135px !important;"><img src="images/drewicon5.png" /></div>
+				<div class="col-md-10">
+					<h2>drew.d.lenhart</h2>
+					<i><small>programmer, developer, writer.</small></i>
 				</div>
 			</div>
-			</div>
-		</div<!-- end row -->
+			<!--endrow-->
+			<br />
 		</div>
-	 </div><!-- end jumbotron -->
- 
-	<div id="apps" class="jumbotron bg-img">
-		<div class="container">
-			<div class="row">
-			<h2>Mobile Apps - Android</h2>
-			<!-- Calcupack row -->
-			<div class="panel panel-primary">
-				<div class="panel-body">
-					<h3><img src="images/icon2.png" width="64" height="64" alt="" />
-					<span class="label label-primary">Calcu-Pack 2.0.1</span></h3>
-					<hr />
-				<div class="row">
-					<div class="col-md-6" style="padding-bottom: 15px" >
-						<b>-Sales Tax Calculator<br />-Tip Calculator<br />-Discount Calculator</b><br /><br />
-						Have all the essential calculator apps in one. This app is ad FREE. No annoying ads to ruin the app experience.<br /><br />
-						Please let me know of any bugs or feature requests, enjoy! <br /><br />
-						Released Jan 2, 2013 - Last updated January, 2016.
-						<br /><hr />
-						<b>Web version:</b><br />
-						Feel free to use the web version.  It differs slightly than the Android version. The Android version has been optimized for performance.<br /><br />
-						<a href="data/Calcu_Pack2.0/">Web Version 2.0.0</a><br />
-						<a href="data/Calcu_Pack1.1/">Web Version 1.1.0</a><br />
-						<a href="data/Calcu_Pack/">Web Version 1.0.0</a> (Best viewed in webkit browsers, Chrome, Safari)..<br /><hr />
-						<div style="margin: 0 auto; text-align: center;">
-							<a class="btn btn-danger btn-lg" href="http://play.google.com/store/apps/details?id=com.snowytech.calcupack2" role="button">Google Play!</a>
+		<!--Navigation-->
+		<nav class="navbar navbar-inverse" style="border-radius: 0px !important" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/"><i class="fas fa-home"></i></a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="https://github.com/dlenhart"><i class="fab fa-github-square"></i> Github</a></li>
+						<li><a href="https://www.linkedin.com/in/drew-d-lenhart-23ba5194"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+						<li><a href="https://www.instagram.com/snowyworks/"><i class="fab fa-instagram"></i> Instagram</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="row inside_container">
+			<div class="entry_main col-sm-8">
+				<main class="main main-frontpage">
+					<div>
+						<section class="post">
+							<h3><em>About</em></h3>
+							<p class="body-content">
+								I've been working in Information Technology since the mid 2000's. I'm currently working as a Test Automation Developer
+								for an insurance company developing BDD tests using <a href="https://cucumber.io/" target="_blank">Cucumber</a> and the
+								<a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a> programming language.
+								I've held positions in Software Development and Application
+								Support. I've been a Systems Analyst, worked at a help desk, supported a super old phone system and ran
+								data/phone cable for a Telecommunications position. I've even worked third shift monitoring thousands of servers in a monitoring position.
+								I've written numerious applications, monitoring tools, and automation scripts. You name it, I've probably done it.
+
+								<br /><br />
+								I enjoy programming professionally as well as personally. Ruby is my go to language, sometimes I use
+								<a href="https://rubyonrails.org/" target="_blank">Ruby on Rails</a> and
+								I occasionally hop over to <a href="https://www.php.net/" target="_blank">PHP</a> now and then using <a href="https://laravel.com/" target="_blank">Laravel</a> &
+								<a href="https://www.slimframework.com/" target="_blank">Slim</a> frameworks. Take a look at my
+								<a href="https://github.com/dlenhart" target="_blank">Github</a> page for my tinker projects!
+
+								<br /><br />
+								When I'm not typing code, I enjoy typing words. I've had a few stories published, I've also self published a couple books,
+								and I currently run my own comic book publishing company called <a href="https://snowyworks.com" target="_blank">SnowyWorks LLC</a>
+								where I publish comics I write and other submissions as well.
+
+								<br /><br />
+								You can get ahold of me using the form below.
+							</p>
+						</section>
+						<hr />
+						<div class="card-content black-text">
+							<h3><em>Contact</em></h3>
+							<form method="POST" action="https://formspree.io/dlenhart@gmail.com">
+								<input type="hidden" name="_subject" value="Contact request from personal website" />
+								<div class="form-group">
+									<label for="email">*Email address</label>
+									<input type="email" class="form-control" id="email" placeholder="Your Email Address" name="_replyto" required>
+								</div>
+								<label class="black-text" for="message"><b>*Message: </b></label><br />
+								<textarea class="form-control" rows="3" name="message" id="message" placeholder="Leave a message!" required></textarea>
+								<br />
+								<input name="save" type="submit" id="submit" value="Send" class="btn btn-primary btn-sm" />
+								<input type="reset" id="cancel" name="reset" value="Reset" class="btn btn-primary btn-sm" />
+							</form>
 						</div>
+						<br />
 					</div>
-					<div class="col-md-6" >
-					<center>
-					<!--<a href="screenshots.php?app=calc"><img src="images/cpSSsm1.png" alt="" class="compImg" /></a>-->
-						<ul class="bxslider">
-							<li><img src="images/cpSSsm1.png" /></li>
-							<li><img src="images/cpSS2sm2.png" /></li>
-							<li><img src="images/cpSS3sm3.png" /></li>
-							<li><img src="images/cpSS4sm4.png" /></li>
-						</ul>
-					</center>
-					</div>
+				</main>
+			</div>
+			<!--end col s8 main entry collumn-->
+
+			<div class="col-sm-4">
+				<div class="list-group">
+					<a class="list-group-item active">
+						<h3 class="list-group-item-heading">Links</h3>
+					</a>
+					<a href="/books" class="list-group-item">
+						<h4 class="list-group-item-heading"><i class="fas fa-book"></i> Books</h4>
+					</a>
+					<a href="https://snowyworks.com" class="list-group-item">
+						<h4 class="list-group-item-heading"><i class="fas fa-bookmark"></i> Comics</h4>
+					</a>
+					<a href="https://github.com/dlenhart" class="list-group-item">
+						<h4 class="list-group-item-heading"><i class="fab fa-github"></i> Github</h4>
+					</a>
+					<a href="https://www.amazon.com/Drew-D-Lenhart/e/B07FTL4BBY/" class="list-group-item">
+						<h4 class="list-group-item-heading"><i class="fab fa-amazon"></i> Amazon Author Page</h4>
+					</a>
+					<a href="https://github.com/dlenhart/project-farenheit" class="list-group-item">
+						<h4 class="list-group-item-heading"><i class="fab fa-github"></i> Project Farenheit</h4>
+					</a>
 				</div>
+				<!--end sidebar-->
+
+				<div class="list-group">
+					<a class="list-group-item active">
+						<h3 class="list-group-item-heading">My Books</h3>
+					</a>
+					<a href="https://www.amazon.com/dp/0578488507" class="list-group-item">
+						<img class="center-block compImg" src="images/distant-thumb.png" />
+					</a>
+					<a href="https://www.amazon.com/dp/B07JVW71L3" class="list-group-item">
+						<img class="center-block compImg" src="images/fscifi-thumb.png" />
+					</a>
+					<a href="https://www.amazon.com/dp/0692906819" class="list-group-item">
+						<img class="center-block compImg" src="images/cytaf-thumb.png" />
+					</a>
 				</div>
-			</div><!-- End Calcupack row -->
-			<!-- qbmi row -->
-			<div class="panel panel-primary">
-				<div class="panel-body">
-					<h3><img src="images/bmIcon.png" width="64" height="64" alt="" />
-					<span class="label label-primary">qBMI 2.0.0</span></h3>
-					<hr />
-					<div class="row">
-						<div class="col-md-6" style="padding-bottom: 15px" >
-							<b>qBMI (quick BMI)</b> is a very simple, and free BMI calculator. It will help calculate your Body Mass Index using height and weight. Calculates in metric/kilograms, centimeters/kilograms, inches/pounds, and feet/inches/pounds. Great to help you stay healthy and fit! If you want some features added, please contact me.<br /><br />Released May 17, 2013 - Last updated December 16, 2015.<br /><hr />
-							<b>Web version:</b><br />
-							Feel free to use the web version.  It differs slightly than the Android version. The Android version has been optimized for performance.<br /><br />
-							<a href="data/qBMI2.0/">Web Version 2.0.0</a><br />
-							<a href="data/snowBMI1.2/">Web Version 1.2</a> (Best viewed in webkit browsers, Chrome, Safari).<br /><hr />
-							<div style="margin: 0 auto; text-align: center;">
-								<a class="btn btn-danger btn-lg" href="http://play.google.com/store/apps/details?id=com.snowytech.qbmi" role="button">Google Play!</a>
-							</div>
-						</div>
-					<div class="col-md-6" >
-						<center>
-						<!--<a href="screenshots.php?app=bmi"><img src="images/bmiSS1sm.png" alt="" class="compImg" /></a>-->
-						<ul class="bxslider">
-							<li><img src="images/bmiSS1sm.png" /></li>
-							<li><img src="images/bmiSS2sm.png" /></li>
-						</ul>
-						</center>
-					</div>
-					</div>
-				</div>
-			</div><!-- End qbmi row -->
+				<!--end sidebar-->
+			</div>
+		</div><!-- end inside_row container -->
+		<div class="footer">
+			<div>
+				<p class="text-muted centerMe">© 2014-2020 Drew D. Lenhart.</p><br />
 			</div>
 		</div>
 	</div>
-
-	<!--Another Section -->
-	<div id="github" class="jumbotron jum-back">
-		<center>
-			<a class="btn btn-danger btn-lg" href="https://github.com/snowytech?tab=repositories" role="button">View Github Projects &raquo;</a>
-		</center>
-	</div><!-- end jumbotron -->
-
-	<div id="contact" class="jumbotron bg-img">
-		<div class="container">
-			<div class="row">
-				<h2>Contact</h2>
-				<form method="POST" action="https://formspree.io/dlenhart@gmail.com">
-					<input type="hidden" name="_subject" value="Contact request from personal website" />
-
-					<label for="email"><b>*E-Mail: </b></label><br />
-					<input type="text" class="form-control" placeholder="Your Email Address" id="email" name="_replyto" required>
-					<br />
-
-					<label for="message"><b>*Message: </b></label><br />
-					<textarea class="form-control" rows="3" name="message" id="message" placeholder="Leave a message!" required></textarea>
-					<br /><br />
-					<input name="save" type="submit" id="submit" value="Send" class="btn btn-primary btn-lg" />
-					<input type="reset" id="cancel" name="reset" value="Reset" class="btn btn-danger btn-lg" />
-				</form>
-			</div>
-		</div>
-	</div>
-
-	<div class="jumbotron jum-back borderTop">
-		<div style="color: #999 !important">Copyright 2009-2018 snowytech. Built using HTML, CSS, PHP and Bootstrap! - <a href="http://www.drewlenhart.com">Drew D. Lenhart</a><br />Website best viewed in Chrome 16+, Safari 3.1+, Firefox 4+, Opera 11+, IE 9.08+
-		</div>
-	</div>
-</div>
-
-<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-<!-- bxSlider Javascript file -->
-<script src="js/jquery.bxslider.js"></script>
-<script type="text/javascript" src="js/st-spa.js"></script>
-<script>
-$(document).ready(function(){
-  $('.bxslider').bxSlider();
-});
-</script>
+	<!--end main container-->
+	<!--Import jQuery before Bootstrap-->
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>

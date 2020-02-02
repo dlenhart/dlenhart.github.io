@@ -1,12 +1,12 @@
-# snowytech
+# drew lenhart
 
-This is the last version of my snowytech website, wrote some android apps under this company name....
+Personal website
 
 ## License
 
 MIT License
 
-Copyright (c) 2018 Drew D. Lenhart
+Copyright (c) 2020 Drew D. Lenhart
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
