@@ -15,6 +15,16 @@ body {
   text-align: justify;
 }
 
+P.drop-cap:first-letter {
+  font-family: "Gentium Book Basic", serif;
+  font-weight: bold;
+  color: dark-grey;
+  float: left;
+  font-size: 5em;
+  margin: -.30em .2em -.30em .1em;
+  font-style: italic;
+}
+
 .main_container {
   margin-left: 5% !important;
   margin-right: 5% !important;
