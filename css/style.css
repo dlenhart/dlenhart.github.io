@@ -6,8 +6,8 @@ Author URI: https://www.drewlenhart.com
 Version: 1.1
 Tags: responsive, white, black, bootstrap, jquery
 */
-body{
-    background-color: #E3E3E3 !important;
+body {
+  background-color: #E3E3E3 !important;
 }
 
 .body-content {
@@ -15,18 +15,21 @@ body{
   text-align: justify;
 }
 
-.main_container{
-    margin-left: 5% !important;
-    margin-right: 5% !important;
+.main_container {
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+}
 
+.main_header {
+  margin-left: .5%;
+  margin-right: .5%;
+  background-color: #E3E3E3 !important;
 }
-.main_header{
-    background-color: #E3E3E3 !important;
-}
-.inside_container{
-    margin-left: .5%;
-    margin-right: .5%;
-    background-color: white !important;
+
+.inside_container {
+  margin-left: .5%;
+  margin-right: .5%;
+  background-color: white !important;
 }
 
 .footer {
@@ -36,20 +39,21 @@ body{
   padding-top: 2%;
   background-color: white !important;
 }
-.centerMe{
-    text-align:center;
-}
-.entry_main{
 
+.centerMe {
+  text-align: center;
 }
+
+.entry_main {}
 
 /*box*/
-.date{
-    float: left;
-    width: auto;
+.date {
+  float: left;
+  width: auto;
 }
-.detail{
-    width: auto;
+
+.detail {
+  width: auto;
 }
 
 /* Sidebar modules for boxing content */
@@ -71,6 +75,6 @@ body{
 }
 
 .compImg {
-    max-width:100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
