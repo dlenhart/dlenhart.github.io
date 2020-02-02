@@ -25,6 +25,10 @@ P.drop-cap:first-letter {
   font-style: italic;
 }
 
+.faz{
+  font-size: 30px;
+}
+
 .main_container {
   margin-left: 5% !important;
   margin-right: 5% !important;
