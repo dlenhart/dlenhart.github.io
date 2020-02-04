@@ -25,18 +25,22 @@ P.drop-cap:first-letter {
   font-style: italic;
 }
 
-.faz{
+.faz {
   font-size: 30px;
 }
 
 .main_container {
   margin-left: 5% !important;
   margin-right: 5% !important;
+  margin-top: 2% !important;
+  margin-bottom: 4% !important
 }
 
 .main_header {
   margin-left: .5%;
   margin-right: .5%;
+  border: 1px solid black;
+  box-shadow: 0 0 5px 0 black !important
 }
 
 .inside_container {
