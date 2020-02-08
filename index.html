@@ -9,7 +9,7 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 	<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="css/style.css?v=9" type="text/css" />
+	<link rel="stylesheet" href="css/style.css?v=10" type="text/css" />
 	<link type="text/css" rel="stylesheet" href="fontawesome/css/all.min.css" />
 	<style type='text/css'>
 		pre,
@@ -41,6 +41,7 @@
 			color: white !important;
 			padding-left: 4px;
 			padding-right: 4px;
+			padding-top: 5px;
 		}
 
 		.list-group-item.active,
@@ -49,12 +50,42 @@
 			border-color: black !important;
 		}
 
+		.main_container {
+			position: relative;
+		}
+
+		.social_media_box {
+			background-color: black !important;
+			position: absolute;
+			top: 0px;
+			right: .5%;
+			z-index: 999;
+		}
+
+		.icon_p {
+			margin: 10px 10px 10px 10px !important;
+		}
+
 		@media only screen and (min-width: 1350px) {
 
-			.main_header,
+			.main_header {
+				position: relative;
+				width: 80% !important;
+				margin: auto;
+			}
+			.social_media_box {
+				background-color: black !important;
+				position: absolute;
+				top: 0px;
+				right: 0px;
+			}
 			.inside_container {
 				width: 80% !important;
 				margin: auto;
+			}
+
+			.faz {
+			  font-size: 40px;
 			}
 		}
 	</style>
@@ -63,16 +94,17 @@
 <body>
 	<div class="main_container" style="">
 		<div class="main_header" style="background-image:url(images/gridback.png);">
+			<div class="social_media_box">
+				<p class="icon_p"><a href="https://github.com/dlenhart" class="icons" target="_blank"><i class="fab fa-github faz"></i></a></p>
+				<p class="icon_p"><a href="https://www.linkedin.com/in/drew-d-lenhart-23ba5194" class="icons" target="_blank"><i class="fab fa-linkedin faz"></i></a></p>
+				<p class="icon_p"><a href="https://www.instagram.com/snowyworks/" class="icons" target="_blank"><i class="fab fa-instagram faz"></i></a></p>
+			</div>
 			<div class="row">
 				<div class="col-md-12 centerMe" style="margin-top: 2% !important;">
 					<img src="images/drewIconNew5.png" class="compImg" width="200" height="200" />
 					<h1 class="icons">Drew D. Lenhart</h1>
 					<h4><span class="label label-default"><em>Programmer, Developer, Writer.</em></span></h4>
-					<div style="margin-top: 20px !important">
-						<a href="https://github.com/dlenhart" class="icons" target="_blank"><i class="fab fa-github faz"></i></a>
-						<a href="https://www.linkedin.com/in/drew-d-lenhart-23ba5194" class="icons" target="_blank"><i class="fab fa-linkedin faz"></i></a>
-						<a href="https://www.instagram.com/snowyworks/" class="icons" target="_blank"><i class="fab fa-instagram faz"></i></a>
-					</div>
+					<!--<div style="margin-top: 20px !important"></div>-->
 				</div>
 			</div>
 			<!--endrow-->
