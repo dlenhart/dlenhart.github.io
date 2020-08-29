@@ -55,8 +55,8 @@ P.drop-cap:first-letter {
   font-size: 18px;
   /*font-family: "Press Start 2P";*/
   background-color: black;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   color: white !important;
 }
 
