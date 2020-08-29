@@ -6,6 +6,9 @@ Author URI: https://www.drewlenhart.com
 Version: 1.1
 Tags: responsive, white, black, bootstrap, jquery
 */
+
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
 body {
   background-color: #E3E3E3 !important;
 }
@@ -43,8 +46,13 @@ P.drop-cap:first-letter {
   box-shadow: 0 0 5px 0 black !important
 }
 
+.press_start{
+  font-family: "Press Start 2P";
+}
+
 .sub_title {
-  font-size: 18px;
+  font-size: 16px;
+  font-family: "Press Start 2P";
   background-color: black;
   padding-top: 5px;
   padding-bottom: 5px;
