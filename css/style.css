@@ -43,6 +43,12 @@ P.drop-cap:first-letter {
   box-shadow: 0 0 5px 0 black !important
 }
 
+.sub_title {
+  font-size: 18px;
+  background-color: black;
+  color: white !important;
+}
+
 .inside_container {
   margin-left: .5%;
   margin-right: .5%;
