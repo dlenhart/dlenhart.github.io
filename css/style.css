@@ -52,8 +52,8 @@ P.drop-cap:first-letter {
 }
 
 .sub_title {
-  font-size: 16px;
-  font-family: "Press Start 2P";
+  font-size: 18px;
+  /*font-family: "Press Start 2P";*/
   background-color: black;
   padding-top: 5px;
   padding-bottom: 5px;
