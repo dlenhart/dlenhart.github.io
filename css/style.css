@@ -11,6 +11,7 @@ Tags: responsive, white, black, bootstrap, jquery
 
 body {
   background-color: #E3E3E3 !important;
+  font: normal normal 12px Verdana, Geneva, sans-serif !important;
 }
 
 .body-content {
