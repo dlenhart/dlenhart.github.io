@@ -50,6 +50,10 @@ Date:   Jan 2021
     height: auto;
 }
 
+.col {
+  text-align: center !important;
+}
+
 /* Media Queries */
 
 @media (max-width: 992px) {
@@ -61,13 +65,14 @@ Date:   Jan 2021
     text-align: center !important;
   }
 
-  .text-left{
+  .text-left {
     text-align: center !important;
   }
 
   .margins-image{
     margin-top: 10px !important
   }
+
 }
 
 @media (min-width: 1300px) {
