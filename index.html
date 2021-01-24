@@ -1,220 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<title>drew.d.lenhart</title>
-	<meta name="description" content="Drew D. Lenhart's personal page!">
-	<meta name="author" content="Drew D. Lenhart">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-	<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="css/style.css?v=13" type="text/css" />
-	<link type="text/css" rel="stylesheet" href="fontawesome/css/all.min.css" />
-	<style type='text/css'>
-		pre,
-		code {
-			overflow: auto !important;
-			white-space: pre !important;
-		}
+    <title>drew.d.lenhart</title>
 
-		/* Bootstrap Overrides -- DDL */
-		.btn-primary {
-			background-color: #eee;
-			border: 1px solid #000000;
-			color: black;
-			margin-bottom: 5px !important;
-		}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Drew D. Lenhart's personal page!">
+  	<meta name="author" content="Drew D. Lenhart">
+    <link rel="shortcut icon" href="favicon.ico">
 
-		.btn-primary:hover {
-			background-color: #282f3e;
-			border: 1px solid #eee;
-		}
+	  <script defer src="assets/fontawesome/js/all.min.js"></script>
+    <link id="theme-style" rel="stylesheet" href="assets/css/ddl.css?v=1">
+    <link id="theme-style-override" rel="stylesheet" href="assets/css/overrides.css?v=4">
 
-		.active,
-		.active>a {
-			background-color: #282f3e !important;
-			color: white !important;
-		}
-
-		.icons {
-			color: white !important;
-			padding-left: 4px;
-			padding-right: 4px;
-			padding-top: 5px;
-		}
-
-		.list-group-item.active,
-		.list-group-item.active:focus,
-		.list-group-item.active:hover {
-			border-color: black !important;
-		}
-
-		.main_container {
-			position: relative;
-		}
-
-		.social_media_box {
-			background-color: black !important;
-			position: absolute;
-			top: 0px;
-			right: .5%;
-			z-index: 999;
-		}
-
-		.icon_p {
-			margin: 10px 10px 10px 10px !important;
-		}
-
-		@media only screen and (min-width: 1350px) {
-
-			.main_header {
-				position: relative;
-				width: 80% !important;
-				margin: auto;
-			}
-			.social_media_box {
-				background-color: black !important;
-				position: absolute;
-				top: 0px;
-				right: 0px;
-			}
-			.inside_container {
-				width: 80% !important;
-				margin: auto;
-			}
-
-			.faz {
-			  font-size: 40px;
-			}
-		}
-	</style>
 </head>
 
 <body>
-	<div class="main_container">
-		<div class="main_header" style="background-image:url(images/gridback.png);">
-			<div class="social_media_box">
-				<p class="icon_p"><a href="https://github.com/dlenhart" class="icons" target="_blank"><i class="fab fa-github faz"></i></a></p>
-				<p class="icon_p"><a href="https://www.linkedin.com/in/drew-d-lenhart-23ba5194" class="icons" target="_blank"><i class="fab fa-linkedin faz"></i></a></p>
-				<p class="icon_p"><a href="https://www.instagram.com/snowyworks/" class="icons" target="_blank"><i class="fab fa-instagram faz"></i></a></p>
-			</div>
-			<div class="row">
-				<div class="col-md-12 centerMe">
-					<img src="images/ddl_circle_logo.png" class="compImg" width="280" height="" />
+
+    <header class="header text-center">
+      <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">DREW D. LENHART</a></h1>
+
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/drewIconNew5.png" alt="image" >
+
+					<div class="bio mb-3">Hi, my name is Drew. I am a programmer, developer, thinker, tinkerer and writer.
+          <br></div>
+					<ul class="social-list list-inline py-3 mx-auto">
+			            <li class="list-inline-item"><a href="https://github.com/dlenhart?tab=repositories"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://www.linkedin.com/in/drew-d-lenhart-23ba5194"><i class="fab fa-linkedin fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://www.instagram.com/snowyworks/"><i class="fab fa-instagram fa-fw"></i></a></li>
+                  <li class="list-inline-item"><a href="https://twitter.com/LenhartDrew"><i class="fab fa-twitter fa-fw"></i></a></li>
+			        </ul>
+			        <hr>
+				</div>
+
+				<ul class="navbar-nav flex-column text-left pad-10">
+          <li class="nav-item">
+					    <a class="nav-link" href="https://github.com/dlenhart?tab=repositories"><i class="fab fa-github"></i> Github Repos</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="https://www.linkedin.com/in/drew-d-lenhart-23ba5194"><i class="fab fa-linkedin"></i> Linkedin Profile</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="/books"><i class="fas fa-book"></i> My Books</a>
+					</li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://snowyworks.com"><i class="fas fa-bookmark"></i> SnowyWorks</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://www.amazon.com/Drew-D-Lenhart/e/B07FTL4BBY/"><i class="fab fa-amazon"></i> Author Page</a>
+          </li>
+				</ul>
+        <hr>
+				<div class="my-2 my-md-3">
+          <!--something here for future-->
 				</div>
 			</div>
-			<div class="row" style="margin-left: 0 !important; margin-right: 0 !important;">
-			<div class="col-md-12 sub_title centerMe">
-				<strong><em>Programmer, Developer, Writer.</em></strong>
-			</div>
-		</div>
-		</div><!--end header-->
+		</nav>
+    </header>
 
-		<div class="row inside_container" style="border: 1px solid black; box-shadow: 0 0 5px 0 black !important">
-			<div class="entry_main col-sm-8">
-				<main class="main main-frontpage">
-					<div>
-						<section class="post">
-							<h1></h1>
-							<p class="body-content drop-cap">
-								I have been working in Information Technology since the mid 2000's. I'm currently working as a Test Automation Developer
-								for an insurance company developing BDD tests using <a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a> and
-								<a href="https://cucumber.io/" target="_blank">Cucumber</a>.
-								I've held positions in Software Development and Application	Support. I've been a Systems Analyst, worked at a IT Help Desk, supported a super old phone system and ran
-								data/phone cable for a Telecommunications position. I've even worked third shift monitoring thousands of servers in a monitoring position.
-								I've written numerous applications, monitoring tools, and automation scripts. You name it, I've probably done it.
+    <div class="main-wrapper">
 
-								<br /><br />
-								I enjoy programming professionally as well as personally. Ruby is my go to programming language. I also use
-								<a href="https://rubyonrails.org/" target="_blank">Ruby on Rails</a> web framework. I occasionally hop over
-								to <a href="https://www.php.net/" target="_blank">PHP</a> now and then using <a href="https://laravel.com/" target="_blank">Laravel</a> &
-								<a href="https://www.slimframework.com/" target="_blank">Slim</a> frameworks. Take a look at my
-								<a href="https://github.com/dlenhart" target="_blank">Github</a> page for my tinker projects!
+	    <article class="about-section justify">
 
-								<br /><br />
-								When I'm not typing code, I enjoy typing words. I've had a few stories published. I've also self published a couple books.
-								I currently run my own comic book publishing company called <a href="https://snowyworks.com" target="_blank">SnowyWorks LLC</a>
-								where I publish the comics I write and other submissions as well.
+		    <div class="container">
 
-								<br /><br />
-								You can get ahold of me using the form below or contact me through
-								<a href="https://www.linkedin.com/in/drew-d-lenhart-23ba5194" target="_blank">Linkedin</a>.
-							</p>
-						</section>
-						<hr />
-						<div class="card-content black-text">
-							<h3>Contact</h3><br />
-							<form method="POST" action="https://formspree.io/dlenhart@gmail.com">
-								<input type="hidden" name="_subject" value="Contact request from personal website" />
-								<div class="form-group">
-									<label for="email">*Email address</label>
-									<input type="email" class="form-control" id="email" placeholder="Your Email Address" name="_replyto" required>
-								</div>
-								<label class="black-text" for="message"><b>*Message: </b></label><br />
-								<textarea class="form-control" rows="8" name="message" id="message" placeholder="Leave a message!" required></textarea>
-								<br />
-								<input name="save" type="submit" id="submit" value="SEND" class="btn btn-primary btn-sm" />
-								<input type="reset" id="cancel" name="reset" value="RESET" class="btn btn-primary btn-sm" />
-							</form>
-						</div>
-						<br />
-					</div>
-				</main>
-			</div>
-			<!--end col s8 main entry collumn-->
+          <img src="assets/images/code_header_small.png" class="compImg margins-image" alt="Photo by D.Lenhart" />
+			    <h2 class="title mb-3 add-margin-15">ABOUT ME</h2>
+          <!--<div class="col-s-12 text-center blue-bar"></div>-->
+          I have been working in Information Technology since the mid 2000's. I'm currently working as a Test Automation Developer
+          for an insurance company developing functional tests using <a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a> and
+          <a href="https://cucumber.io/" target="_blank">Cucumber</a>.
+          I've held positions in Software Development and Application	Support. I've been a Systems Analyst, worked at a IT Help Desk, supported a super old phone system and ran
+          data/phone cable for a Telecommunications position. I've even worked third shift monitoring thousands of servers in a monitoring position.
+          I've written numerous applications, monitoring tools, and automation scripts. You name it, I've probably done it.
 
-			<div class="col-sm-4" style="margin-top: 2% !important;">
-				<div class="list-group">
-					<a class="list-group-item active">
-						<h4 class="list-group-item-heading">Links</h4>
-					</a>
-					<a href="https://github.com/dlenhart" class="list-group-item">
-						<h4 class="list-group-item-heading"><i class="fab fa-github"></i> Github</h4>
-					</a>
-					<a href="https://www.linkedin.com/in/drew-d-lenhart-23ba5194" class="list-group-item">
-						<h4 class="list-group-item-heading"><i class="fab fa-linkedin"></i> Linkedin</h4>
-					</a>
-					<a href="/books" class="list-group-item">
-						<h4 class="list-group-item-heading"><i class="fas fa-book"></i> Books</h4>
-					</a>
-					<a href="https://snowyworks.com" class="list-group-item">
-						<h4 class="list-group-item-heading"><i class="fas fa-bookmark"></i> Comics</h4>
-					</a>
-					<a href="https://www.amazon.com/Drew-D-Lenhart/e/B07FTL4BBY/" class="list-group-item">
-						<h4 class="list-group-item-heading"><i class="fab fa-amazon"></i> Author Page</h4>
-					</a>
-				</div>
-				<!--end sidebar-->
+          <br /><br />
+          I enjoy programming professionally as well as personally. Ruby is my go to programming language. I also use
+          <a href="https://rubyonrails.org/" target="_blank">Ruby on Rails</a> web framework. I occasionally hop over
+          to <a href="https://www.php.net/" target="_blank">PHP</a> now and then using <a href="https://laravel.com/" target="_blank">Laravel</a> &
+          <a href="https://www.slimframework.com/" target="_blank">Slim</a> frameworks. Take a look at my
+          <a href="https://github.com/dlenhart?tab=repositories" target="_blank">Github</a> page for my tinker projects!
 
-				<div class="list-group">
-					<a class="list-group-item active">
-						<h4 class="list-group-item-heading">My Books</h4>
-					</a>
-					<a href="https://www.amazon.com/dp/0578488507" class="list-group-item">
-						<img class="center-block compImg" src="images/distant-thumb.png" />
-					</a>
-					<a href="https://www.amazon.com/dp/B07JVW71L3" class="list-group-item">
-						<img class="center-block compImg" src="images/fscifi-thumb.png" />
-					</a>
-					<a href="https://www.amazon.com/Drew-D-Lenhart/e/B07FTL4BBY/" class="list-group-item">
-						<h4 class="centerMe">More...</h4>
-					</a>
-				</div>
-			</div>
-			<!--end sidebar-->
+          <br /><br />
+          When I'm not typing code, I enjoy typing words. I've had a few stories published. I've also self published a couple books.
+          I currently run my own comic book publishing company called <a href="https://snowyworks.com" target="_blank">SnowyWorks LLC</a>,
+          where I publish the comics I write and other submissions as well.
 
-			<div class="col-sm-12">
-				<div class="footer">
-					<div>
-						<p class="text-muted centerMe">© 2014-2020 Drew D. Lenhart.</p><br />
-					</div>
-				</div>
-			</div>
-		</div><!-- end inside_row container -->
+          <br /><br />
+          You can get ahold of me using the form below or contact me through
+          <a href="https://www.linkedin.com/in/drew-d-lenhart-23ba5194" target="_blank">Linkedin</a>.
+          <br /><br /><br />
+          <h2 class="title mb-3">BOOKS</h2>
+          Check out a few of the books/comics that I have written!<br /><br />
 
-	</div>
-	<!--end main container-->
+          <div class="row margin-bottom">
+            <div class="col top-5">
+              <a href="https://www.amazon.com/dp/0578488507" target="_blank">
+                <img src="images/distant-thumb.png" alt="" class="center-me" />
+              </a>
+            </div>
+            <div class="col top-5">
+              <a href="https://play.google.com/store/books/details?id=gCjPDwAAQBAJ" target="_blank">
+                <img src="images/fscifi-thumb.png" alt="" class="center-me" />
+              </a>
+            </div>
+            <div class="col top-5">
+              <a href="https://play.google.com/store/books/details?id=ZpyyDwAAQBAJ" target="_blank">
+                <img src="images/hello_comp.jpg" alt="" class="center-me" />
+              </a>
+            </div>
+            <div class="col top-5">
+              <a href="https://play.google.com/store/books/details?id=XkoEEAAAQBAJ" target="_blank">
+                <img src="images/monsters_thumb.jpg" alt="" class="center-me" /></a>
+            </div>
+            <div class="col top-5">
+              <a href="https://www.comixology.com/Calzers-Clock-01/digital-comic/903975" target="_blank">
+                <img src="images/calzers_thumb.jpg" alt="" class="center-me" /></a>
+            </div>
+          </div>
+          <br />
+		    </div>
+	    </article><!--//about-section-->
+
+	    <section class="cta-section theme-bg-light py-5">
+		    <div class="container">
+			    <h2 class="heading title">CONTACT</h2>
+          <br />
+          <form method="POST" action="https://formspree.io/dlenhart@gmail.com">
+            <input type="hidden" name="_subject" value="Contact request from personal website" />
+            <div class="form-group">
+              <label for="email">*Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email Address" name="_replyto" required>
+            </div>
+            <label class="black-text" for="message"><b>*Message: </b></label><br />
+            <textarea class="form-control" rows="8" name="message" id="message" placeholder="Leave a message!" required></textarea>
+            <br />
+            <input name="save" type="submit" id="submit" value="SEND" class="btn btn-primary btn-sm" />
+            <input type="reset" id="cancel" name="reset" value="RESET" class="btn btn-primary btn-sm" />
+          </form>
+		    </div><!--//container-->
+	    </section>
+
+	    <footer class="footer text-center py-2 theme-bg-dark">
+            <small class="copyright">© 2014-2021 Drew D. Lenhart. Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by
+              <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers.</small>
+	    </footer>
+
+    </div><!--//main-->
+
+    <!-- Javascript -->
+    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 </body>
-
 </html>
