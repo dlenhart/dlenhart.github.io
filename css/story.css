@@ -13,13 +13,26 @@ body {
     font-family: vintageFont;
 }
 
+.body-content {
+    font-size: 18px !important;
+    text-align: justify;
+  }
+
 .container {
     width: 60%;
     margin: 0 auto;
 }
 
+.borderRadius {
+    border-radius: 20px !important;
+}
+
 .title {
-    margin-top: 50px;
+    margin-top: 30px;
+}
+
+.bottom {
+    margin-bottom: 50px;
 }
 
 .body {
@@ -31,7 +44,34 @@ body {
     text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+.compImg {
+    max-width: 100%;
+    height: auto;
+}
+
+.social_media_box {
+    margin-top: 20px;
+}
+
+.active,
+.active>a {
+    background-color: #282f3e !important;
+    color: rgb(47, 27, 118) !important;
+}
+
+.icons {
+    color: black !important;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    font-size: 1.5em;
+}
+
+.icon_p {
+    margin: 3px 3px 3px 3px !important;
+}
+
+/* @media only screen and (max-width: 600px) {
     .container {
         width: 90%;
     }
@@ -41,4 +81,4 @@ body {
     .container {
         width: 80%;
     }
-}
+} */
